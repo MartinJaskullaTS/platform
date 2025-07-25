@@ -1,11 +1,10 @@
-import './App.css';
-import Provider from 'provider';
+import Plugin from 'plugin';
 
 const App = () => {
   return (
-    <div className="content">
-      <Provider />
-    </div>
+      <>
+        <Plugin />
+      </>
   );
 };
 
